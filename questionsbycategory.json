@@ -1,0 +1,267 @@
+[{
+		"testID": "TEST-1",
+		"category": "E",
+		"topicExam": [{
+				"QuestionID": 1,
+				"Question": "An important cosideration when deciding how to invest money being saved for emergencies is the",
+				"Choices": [
+					"dividends being charged",
+					"degree of liquidity",
+					"limit on withdrawls",
+					"higher potential return"
+				]
+			},
+			{
+				"QuestionID": 2,
+				"Question": "Which guideline is important to follow for successful budgeting?",
+				"Choices": [
+					"Get a copy of the person's three credit reports each year",
+					”Know the location of the banks where accounts are held",
+					"Have expenses that are not greater than income",
+					"Earn a degree from post secondary education institution"
+				]
+			},
+			{
+				"QuestionID": 3,
+				"Question": "Which of the following information does not appear on a person's credit report?",
+				"Choices": [
+					"The outsatnding balances on open accounts",
+					"The date and year a person opened accounts",
+					"The person's current and previous addresses",
+					"The person's religin and gender"
+				]
+			},
+			{
+				"QuestionID": 4,
+				"Question": "Which of the following is a non profit financial institution?",
+				"Choices": [
+					"Credit Union",
+					"Savings and Loan Bank",
+					"Commercial Bank",
+					"Real Estate Agency"
+				]
+			},
+			{
+				"QuestionID": 5,
+				"Question": "Most Payday loans",
+				"Choices": [
+					"Include a fee paid to federal government",
+					"Are an expensive way to borrow",
+					"Are extremely expensive",
+					"Require the bowrrower to have a bank account"
+				]
+			},
+			{
+				"QuestionID": 6,
+				"Question": "One reason that term life insurance is usually less expensive than other types of life insurance is that this type of insurance",
+				"Choices": ["is only for a limited number of years",
+					"builds interest overtime",
+					"provides coverage of lifetime",
+					"is available only to consumers ages 25 to 49"
+				]
+			},
+			{
+				"QuestionID": 7,
+				"Question": "Which of the following insurance policies generally covers the cost of a stolen car for the policyholder?",
+				"Choices": [
+					"Mortgage",
+					"Homeowners",
+					"Automobile",
+					"Life"
+				]
+			},
+			{
+				"QuestionID": 8,
+				"Question": "The advantage of mutual funds is that they are",
+				"Choices": [
+					"an investment portfolio manages by investor",
+					"an investment that holds a wide range of different investement instruments, providing diversification",
+					"usually less risky than investing a savings account",
+					"guranteed to increase in value"
+				]
+			},
+			{
+				"QuestionID": 9,
+				"Question": "A person sold her stock ABC Company for a higher price per share than she bought it for. Therefore she had a capital",
+				"Choices": [
+					"gain",
+					"loss",
+					"surplus",
+					"dividend"
+				]
+			},
+			{
+				"QuestionID": 10,
+				"Question": "When a check is made payable to cash, it",
+				"Choices": [
+					"voids the check",
+					"creates a check anyone can cash",
+					"does not allow the checl to be deposited",
+					"restricts the life of the check to not more than 5 days"
+				]
+			}
+		]
+	},
+	{
+		"testID": "TEST-2",
+		"category": "M",
+		"topicExam": [{
+				"QuestionID": 11,
+				"Question": "When an employee has money deducted from his paycheck to deposit into his employer's retirement plan, the employee is contibuting to his",
+				"Choices": [
+					"401(k) plan",
+					"Investment portfolio",
+					"Insurance Plan",
+					"Savings account"
+				]
+			},
+			{
+				"QuestionID": 12,
+				"Question": "Which tax is the internal Revenue services(IRS) responsible for collecting?",
+				"Choices": [
+					"Sales Tax",
+					"City Tax",
+					"Federal Incoe Tax",
+					"Property Tax"
+				]
+			},
+			{
+				"QuestionID": 13,
+				"Question": "Which form of check endorsement is not recommended?",
+				"Choices": [
+					"Blank endorsement",
+					"Restrictive endorsement",
+					"special endorsement",
+					"credit endorsement"
+				]
+			},
+			{
+				"QuestionID": 14,
+				"Question": "when a person has to file for personal bankruptcy that allows debt to be repaid over time, she will apply to bankruptscy court for a ",
+				"Choices": [
+					"Chapter 13",
+					"Chapter 11",
+					"Chapter 10",
+					"Chapter 7"
+				]
+			},
+			{
+				"QuestionID": 15,
+				"Question": "Costumer Credit Counselling Services offer",
+				"Choices": [
+					"retirement plans",
+					"debt payment plans",
+					"investment products",
+					"insurance policies"
+				]
+			},
+			{
+				"QuestionID": 16,
+				"Question": "A person's new health insurance coverage will pay his claim for diabtes care, a medical condition he has had for five years. All insurance companies must allow payment of claims that are based on",
+				"Choices": [
+					"new medical research",
+					"a pre-existing condition clause",
+					"a waiver for the premiuum",
+					"false disability"
+				]
+			},
+			{
+				"QuestionID": 17,
+				"Question": "How does the degree of risk, that the insurance company has to take, influence thec ost of insurance policy",
+				"Choices": [
+					"The lower the risk, the higher the cost of the insurance premium",
+					"The higher the risk, the higher the cost of the insurance premium",
+					"The higher the risk, the lower the cost of the insurance premium",
+					"There is no relationship between risk and the cost of insurance premium"
+				]
+			},
+			{
+				"QuestionID": 18,
+				"Question": "If a business corporation wants to raise capital but NOT create debt, it can",
+				"Choices": [
+					"issue a bond",
+					"issue common stock",
+					"borrow money from commercial bank",
+					"borrow money from the government"
+				]
+			}
+		]
+	},
+	{
+		"testID": "TEST-3",
+		"category": "D",
+		"topicExam": [
+
+			{
+				"QuestionID": 19,
+				"Question": "'A dollar today is worth more than a dollar tomorrow': best describes which economic condition",
+				"Choices": [
+					"Infation",
+					"Deflation",
+					"Prosperity",
+					"Recession"
+				]
+			},
+			{
+				"QuestionID": 20,
+				"Question": "Jacob lost his debit card. If Jacob reports his lost or stolen debit card within two business days, he can be held responsible for",
+				"Choices": [
+					"upto $50 unauthorized transactions",
+					"upto $500 unauthorized transactions",
+					"all unauthorized transactions without a limit",
+					"no purchases"
+				]
+			},
+			{
+				"QuestionID": 21,
+				"Question": "The interest rate that is paid on a bank money market account balance",
+				"Choices": [
+					"is set at the tie of the initial deposit into the money markt account",
+					"varies depending on current interest rates",
+					"is determined by the date the account was opened",
+					"fluctuates depending on the owner's creditworhiness"
+				]
+			},
+			{
+				"QuestionID": 22,
+				"Question": "One advantage of having a home equity loan is that",
+				"Choices": [
+					"it is interest free for the homeowner",
+					"it increases the value of the person's home",
+					"the interest paid on the loan is tac deductible",
+					"the monthly mortgage loanpayments are reduced"
+				]
+			},
+			{
+				"QuestionID": 23,
+				"Question": "An umbrella insurance policy covers",
+				"Choices": [
+					"personal property when traveling away from home",
+					"flood storm damage",
+					"expensive personal property such as jewellery and collections",
+					"major personal liability suits"
+				]
+			},
+			{
+				"QuestionID": 24,
+				"Question": "A woman wants to buy an investment that will pay a fixed dividend, providing a source of steady retirement income. Which investment product mmeets her needs?",
+				"Choices": [
+					"Prefered stock",
+					"speulative stock",
+					"common stock",
+					"capital growth stock"
+				]
+			},
+			{
+				"QuestionID": 25,
+				"Question": "An individual does not want to pay federal income tax on investment earnings. Therefore it is advisable for this person to buy",
+				"Choices": [
+					"corporate bonds",
+					"growth stocks",
+					"stock mutual funds",
+					"municipal bonds"
+				]
+			}
+		]
+	}
+]
