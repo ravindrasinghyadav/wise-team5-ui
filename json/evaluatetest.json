@@ -1,0 +1,152 @@
+[
+	{
+		"testID": "TEST-1",
+		"category": "Easy",
+		"categoryDescription": "Focuses on Remembering and Understanding the financial concepts",
+		"CorrectAnswer": [
+			{
+				"QuestionID": 1,
+				"Question": "An important cosideration when deciding how to invest money being saved for emergencies is the",
+				"Answer": "degree of liquidity"
+			},
+			{
+				"QuestionID": 2,
+				"Question": "Which guideline is important to follow for successful budgeting?",
+				"Answer": "Have expenses that are not greater than income"
+			},
+			{
+				"QuestionID": 3,
+				"Question": "Which of the following information does not appear on a person's credit report?",
+				"Answer": "The person's religion and gender"
+			},
+			{
+				"QuestionID": 4,
+				"Question": "Which of the following is a non profit financial institution?",
+				"Answer": "Credit Union"
+			},
+			{
+				"QuestionID": 5,
+				"Question": "Most Payday loans",
+				"Answer": "are extremely expensive"
+			},
+			{
+				"QuestionID": 6,
+				"Question": "One reason that term life insurance is usually less expensive than other types of life insurance is that this type of insurance",
+				"Answer": "is only for a limited number of years"
+			},
+			{
+				"QuestionID": 7,
+				"Question": "Which of the following insurance policies generally covers the cost of a stolen car for the policyholder?",
+				"Answer": "Automobile"
+			},
+			{
+				"QuestionID": 8,
+				"Question": "The advantage of mutual funds is that they are",
+				"Answer": "an investment that holds a wide range of different investments instruments, providing diversification"
+			},
+			{
+				"QuestionID": 9,
+				"Question": "A person sold her stock ABC Company for a higher price per share than she bought it for. Therefore she had a capital",
+				"Answer": "gain"
+			},
+			{
+				"QuestionID": 10,
+				"Question": "When a check is made payable to cash, it",
+				"Answer": "creates a check that anyone can cash"
+			}
+		]	
+	},
+	
+	{
+		"testID": "TEST-2",
+		"category": "Medium",
+		"categoryDescription": "Focuses on Applying and analyzing the financial concepts",
+		"CorrectAnswer": [
+			{
+				"QuestionID": 11,
+				"Question": "When an employee has money deducted from his paycheck to deposit into his employer's retirement plan, the employee is contibuting to his",
+				"Answer": "401(k) plan"	
+			},
+			{
+				"QuestionID": 12,
+				"Question": "Which tax is the internal Revenue services(IRS) responsible for collecting?",
+				"Answer": "Federal income tax"
+			},
+			{
+				"QuestionID": 13,
+				"Question": "Which form of check endorsement is not recommended?",
+				"Answer": "Blank endorsement"
+			},
+			{
+				"QuestionID": 14,
+				"Question": "when a person has to file for personal bankruptcy that allows debt to be repaid over time, she will apply to bankruptscy court for a ",
+				"Answer": "Chapter 13"
+			},
+			{
+				"QuestionID": 15,
+				"Question": "Consumer Credit Counselling Services offer",
+				"Answer": "debt payment plans"
+			},
+			{
+				"QuestionID": 16,
+				"Question": "A person's new health insurance coverage will pay his claim for diabtes care, a medical condition he has had for five years. All insurance companies must allow payment of claims that are based on",
+				"Answer": "a pre-existing condition clause"
+			},
+			{
+				"QuestionID": 17,
+				"Question": "How does the degree of risk, that the insurance company has to take, influence thec ost of insurance policy",
+				"Answer": "The higher the risk, the higher the cost of incurance"
+			},
+			{
+				"QuestionID": 18,
+				"Question": "If a business corporation wants to raise capital but NOT create debt, it can",
+				"Answer": "issue common stock"
+			}
+		]
+	},
+	
+	{
+		"testID": "TEST-3",
+		"category": "Difficult",
+		"categoryDescription": "Focusses on Evaluating the financial concepts",
+		"CorrectAnswer": [
+			{
+				"QuestionID": 19,
+				"Question": "'A dollar today is worth more than a dollar tomorrow': best describes which economic condition",
+				"Answer": "Inflation"
+			},
+			{
+				"QuestionID": 20,
+				"Question": "Jacob lost his debit card. If Jacob reports his lost or stolen debit card within two business days, he can be held responsible for",
+				"Answer": "up to $50 unauthorized transactions"
+			},
+			{
+				"QuestionID": 21,
+				"Question": "The interest rate that is paid on a bank money market account balance",
+				"Answer": "variess depending on current interest rates"
+			},
+			{
+				"QuestionID": 22,
+				"Question": "One advantage of having a home equity loan is that",
+				"Answer": "the interest paid on the loan is tax deductible"
+			},
+			{
+				"QuestionID": 23,
+				"Question": "An umbrella insurance policy covers",
+				"Answer": "major personal liability suits"
+			},
+			{
+				"QuestionID": 24,
+				"Question": "A woman wants to buy an investment that will pay a fixed dividend, providing a source of steady retirement income. Which investment product mmeets her needs?",
+				"Answer": "Prefered Stock"
+			},
+			{
+				"QuestionID": 25,
+				"Question": "An individual does not want to pay federal income tax on investment earnings. Therefore it is advisable for this person to buy",
+				"Answer": "municipal bonds"	
+			}
+			
+		]
+		
+	}
+]
