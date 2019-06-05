@@ -1,6 +1,7 @@
 [{
 		"testID": "TEST-1",
-		"category": "E",
+		"category": "Easy",
+		"categoryDescription": "Focuses on Remembering and Understanding the financial concepts",
 		"topicExam": [{
 				"QuestionID": 1,
 				"Question": "An important cosideration when deciding how to invest money being saved for emergencies is the",
@@ -104,7 +105,8 @@
 	},
 	{
 		"testID": "TEST-2",
-		"category": "M",
+		"category": "Medium",
+		"categoryDescription": "Focuses on Applying and analyzing the financial concepts",
 		"topicExam": [{
 				"QuestionID": 11,
 				"Question": "When an employee has money deducted from his paycheck to deposit into his employer's retirement plan, the employee is contibuting to his",
@@ -189,7 +191,8 @@
 	},
 	{
 		"testID": "TEST-3",
-		"category": "D",
+		"category": "Difficult",
+		"categoryDescription": "Focusses on Evaluating the financial concepts",
 		"topicExam": [
 
 			{
