@@ -8,6 +8,7 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import { blue, indigo } from '@material-ui/core/colors'
 import Login from './pages/login/login'
 import Signup from './pages/login/signup'
+import Question from './pages/questionaire/container'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 
@@ -52,9 +53,10 @@ function App() {
           <div className="App">
             <Switch>
               {/* TODO add home handler */}
-              <Route path="/" component={Login}/>
-              {/* <Route path="/login" component={Login}/> */}
-              {/* <Route path="/signup" component={Signup}/> */}
+              {/* <Route path="/" component={Login}/> */}
+              <Route path="/login" component={Login}/>
+              <Route path="/signup" component={Signup}/>
+              <Route path="/question" component={Question}/>
             </Switch>
           {/* <Signup/> */}
           </div>
