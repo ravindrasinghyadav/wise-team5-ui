@@ -1,0 +1,149 @@
+[
+	{
+		"testID": "TEST-1",
+		"category": "E",
+		"CorrectAnswer": [
+			{
+				"QuestionID": 1,
+				"Answer": "degree of liquidity",
+				"Description": "An emergency savings account needs to be easily converted to cash (liquid). Bank savings accounts are typically very liquid and safe because they are insured by the Federal Deposit Insurance Corporation (FDIC)."
+			},
+			{
+				"QuestionID": 2,
+				"Answer": "Have expenses that are not greater than income",
+				"Description": "The most important guideline to follow is to have a budget that has monthly expenses that do not exceed monthly income. "
+			},
+			{
+				"QuestionID": 3,
+				"Answer": "The person's religion and gender",
+				"Description": "Credit reporting agencies do NOT report on religion or gender.  It is against the law for creditors to base their credit decisions on sex, age, race, color, religion, national origin, marital status, or receipt of public income or assistance."
+			},
+			{
+				"QuestionID": 4,
+				"Answer": "Credit Union",
+				"Description": "Credit unions are nonprofit financial institutions that exists to serve their members (depositors) with financial products and services.  Banks and real estate agencies are for profit business."
+			},
+			{
+				"QuestionID": 5,
+				"Answer": "are extremely expensive",
+				"Description": "Disadvantages of taking a payday loan are that interest rates and fees are EXTREMELY high and the borrower gets into an ongoing cycle of needing to borrow against future income."
+			},
+			{
+				"QuestionID": 6,
+				"Answer": "is only for a limited number of years",
+				"Description": "Term life insurance is usually the least expensive because it only insures the individual for a limited time or “Term”. There is no cash value accumulation. The death benefit is paid only if the insured person dies during the term coverage and the limited period of time reduces the risk that the insurance company is taking."
+			},
+			{
+				"QuestionID": 7,
+				"Answer": "Automobile",
+				"Description": "Automobile comprehensive insurance covers the theft of motor vehicles, injuries to the driver and passengers, and possible damage to the other car and its occupants in an accident. However, not all auto policies cover theft."
+			},
+			{
+				"QuestionID": 8,
+				"Answer": "an investment that holds a wide range of different investments instruments, providing diversification",
+				"Description": "A mutual fund’s investment portfolio typically holds between 100 and 200 different types of investment instruments, including, for example, stocks, bonds, and money market securities. This diversification minimizes the investor’s risk. A mutual fund’s portfolio is managed by a professional fund manager which may be advantageous to an inexperienced investor. They are not guaranteed to increase in value."
+			},
+			{
+				"QuestionID": 9,
+				"Answer": "gain",
+				"Description": "If a person sells stock for a higher price per share than she bought it for, she has made a profit which is called a capital gain. If the person sells it for less than she bought it for, she has a capital loss. Sale price – purchase price = capital gain or loss."
+			},
+			{
+				"QuestionID": 10,
+				"Answer": "creates a check that anyone can cash",
+				"Description": "A check made payable to cash can be used by anyone in the event the check is lost or stolen. It is NOT a good idea."
+			}
+		]	
+	},
+	
+	{
+		"testID": "TEST-2",
+		"category": "M",
+		"CorrectAnswer": [
+			{
+				"QuestionID": 11,
+				"Answer": "401(k) plan",
+				"Description": "This employee is making contributions to a 401(k) retirement plan. In this type of plan, the employer may match the employee’s contributions up to a limit that is set by the employer. Employees can choose not to contribute. If they do not contribute, they lose the employer’s contribution."
+			},
+			{
+				"QuestionID": 12,
+				"Answer": "Federal income tax",
+				"Description": "The IRS, an agency of the U.S. government, is responsible for collecting federal income taxes from people who earn income. "
+			},
+			{
+				"QuestionID": 13,
+				"Answer": "Blank endorsement",
+				"Description": " A blank endorsement is a person’s signature only on the back of a check which enables anyone to cash the check.  Therefore, a blank endorsement should NOT be used unless the person is inside the financial institution when endorsing the check to deposit or cash it. "
+			},
+			{
+				"QuestionID": 14,
+				"Answer": "Chapter 13",
+				"Description": "Chapter 13, which is for personal bankruptcy, is used by people who have some equity, like a house or other property, have an income, and can meet their living expenses but not keep up with the payments on their debts. Chapter 13 allows these people to pay their debt over three to five years. Chapter 13 personal bankruptcy remains on a person’s credit report for seven years."
+			},
+			{
+				"QuestionID": 15,
+				"Answer": "debt payment plans",
+				"Description": "Consumer Credit Counseling Services (CCCS) counsel people on how to get out of debt by developing debt repayment plans with creditors giving them part of their paycheck to pay outstanding debts. The consumer should make sure that the service is charging a reasonable fee and has a good reputation."
+			},
+			{
+				"QuestionID": 16,
+				"Answer": "a pre-existing condition clause",
+				"Description": "Today, all health insurance policies are required to cover any pre-existing conditions."
+			},
+			{
+				"QuestionID": 17,
+				"Answer": "The higher the risk, the higher the cost of incurance",
+				"Description": "The higher the risk for the insurance company, the higher the cost of the premium for the insurance policy. "
+			},
+			{
+				"QuestionID": 18,
+				"Answer": "issue common stock",
+				"Description": "A corporation raises capital (money) when it issues stock, a share in the ownership of the company. Issuing stock does not create a debt. Issuing bonds or borrowing money from a financial institution or the government does create debt for the company."
+			}
+		]
+	},
+	
+	{
+		"testID": "TEST-3",
+		"category": "D",
+		"CorrectAnswer": [
+			{
+				"QuestionID": 19,
+				"Answer": "Inflation",
+				"Description": "Inflation is characterized by a rise in the prices of goods and services. Therefore a dollar buys less, thus having less value. Over time, inflation occurs, making a dollar today more valuable in terms of the goods and services it can buy."
+			},
+			{
+				"QuestionID": 20,
+				"Answer": "up to $50 unauthorized transactions",
+				"Description": "Under the Electronic Fund Transfer Act, if a consumer reports the theft of an EFT, ATM, or debit card to the issuing financial institution within two business days, he or she is liable for no more than $50 of unauthorized transfers."
+			},
+			{
+				"QuestionID": 21,
+				"Answer": "variess depending on current interest rates",
+				"Description": "A bank money market account (MMA) or money market deposit account (MMDA) is a bank financial account that pays interest that varies (changes) based on current interest rates. "
+			},
+			{
+				"QuestionID": 22,
+				"Answer": "the interest paid on the loan is tax deductible",
+				"Description": "The interest paid on a home equity loan is tax deductible. This feature makes it attractive to people who are considering a renovation on their home or need to make costly improvements. "
+			},
+			{
+				"QuestionID": 23,
+				"Answer": "major personal liability suits",
+				"Description": " An umbrella policy provides a great deal of additional coverage to protect against a lawsuit that could be brought over injuries and/or property damage that the policyholder caused that exceeds the liability limits on his car insurance, home insurance, boat insurance, etc."
+			},
+			{
+				"QuestionID": 24,
+				"Answer": "Prefered Stock",
+				"Description": "Preferred stock is issued with a fixed dividend per share. The regular dividend payments appeal to retired investors and others who desire a reliable stream of income."
+			},
+			{
+				"QuestionID": 25,
+				"Answer": "municipal bonds",
+				"Description": "The interest earned on municipal bonds is tax-free (although a person may have some taxes, depending on the type of municipal bond).The income received from dividends on stocks and mutual funds is taxable income. The interest earned on savings accounts is taxable income."
+			}
+			
+		]
+		
+	}
+]
