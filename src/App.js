@@ -9,6 +9,7 @@ import { blue, indigo } from '@material-ui/core/colors'
 import Login from './pages/login/login'
 import Signup from './pages/login/signup'
 import Question from './pages/questionaire/container'
+import Results from './pages/questionaire/results'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 
@@ -57,6 +58,7 @@ function App() {
               <Route path="/login" component={Login}/>
               <Route path="/signup" component={Signup}/>
               <Route path="/question" component={Question}/>
+              <Route path="/results" component={Results}/>
             </Switch>
           {/* <Signup/> */}
           </div>
