@@ -1,7 +1,7 @@
 [
 	{
 		"testID": "TEST-1",
-		"category": "E",
+		"category": "Easy",
 		"CorrectAnswer": [
 			{
 				"QuestionID": 1,
@@ -58,7 +58,7 @@
 	
 	{
 		"testID": "TEST-2",
-		"category": "M",
+		"category": "Medium",
 		"CorrectAnswer": [
 			{
 				"QuestionID": 11,
@@ -105,7 +105,7 @@
 	
 	{
 		"testID": "TEST-3",
-		"category": "D",
+		"category": "Difficult",
 		"CorrectAnswer": [
 			{
 				"QuestionID": 19,
