@@ -1,0 +1,21 @@
+{
+  "name": "Wise!",
+  "port": 3000,
+  "api": {
+    "url": "http://localhost",
+    "port": 5000,
+    "login": {
+      "login": "/api/login",
+      "signup": "/api/signup",
+      "resetpassword": "/api/resetpassword"
+    },
+    "account": {
+      "profile": "/api/profile"
+    },
+    "practice": {
+      "question": "/api/practice",
+      "answer": "/api/practice/:id"
+    },
+    "question": "/api/question"
+  }
+}
