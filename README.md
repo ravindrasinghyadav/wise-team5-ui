@@ -19,6 +19,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ### `npm run build`
 
+
 Builds the app for production to the `build` folder.<br>
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
@@ -26,6 +27,19 @@ The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run serve`
+
+This is the deployment script and runs the UI Server. The site is accesssible at:
+```http://localhost:3000```
+
+Side note, with the --production flag (or when the NODE_ENV environment variable is set to production), npm will not install modules listed in devDependencies.
+
+NOTE: The --production flag has no particular meaning when adding a dependency to a project.
+
+```
+npm install --production
+```
 
 ### `npm run eject`
 
