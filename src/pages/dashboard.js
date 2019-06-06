@@ -12,6 +12,8 @@ import Grid from '@material-ui/core/Grid';
 import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Typography from '@material-ui/core/Typography';
 import Avatar from '@material-ui/core/Avatar';
+import Navigation from '../components/navigation';
+import TopNav from '../components/appbar';
 import { Link as RouterLink } from 'react-router-dom';
 // import { Redirect } from 'react-router'
 
@@ -44,7 +46,7 @@ const styles = theme => ({
   },
 });
 
-class Login extends React.Component {
+class Dashboard extends React.Component {
   state = {
     redirect: true,
     // data: {}
@@ -73,7 +75,7 @@ class Login extends React.Component {
 
   onSubmit(){
     console.log('submit');
-    window.location.href = '/home';
+    window.location.href = '/question';
   }
 
   render() {
@@ -82,7 +84,9 @@ class Login extends React.Component {
     //   return <Redirect to='/question'/>;
     // }
     return (
-      <Grid container component="main" className={classes.root}>
+      <React.Fragment>
+        {/* <TopNav/> */}
+        <Grid container component="main" className={classes.root}>
         <Grid item xs={false} sm={4} md={7} className={classes.image} />
         <Grid item xs={12} sm={8} md={5} component={Paper} elevation={6} square>
           <div className={classes.paper}>
@@ -148,12 +152,14 @@ class Login extends React.Component {
           </div>
         </Grid>
       </Grid>
+        <Navigation/>
+      </React.Fragment>
     );
   }
 }
 
-Login.propTypes = {
+Dashboard.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(withSnackbar(Login));
+export default withStyles(styles)(withSnackbar(Dashboard));

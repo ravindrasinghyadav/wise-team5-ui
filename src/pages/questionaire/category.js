@@ -11,6 +11,7 @@ import Avatar from '@material-ui/core/Avatar';
 import deepOrange from '@material-ui/core/colors/deepOrange';
 import deepPurple from '@material-ui/core/colors/deepPurple';
 import Grid from '@material-ui/core/Grid';
+import { ReactTypeformEmbed } from 'react-typeform-embed';
 
 
 const useStyles = makeStyles({
@@ -42,38 +43,9 @@ function Category() {
   }
 
   return (
-    <Grid container justify="center" alignItems="center">
-      <Card className={classes.card} onClick={onClick}>
-        <CardActionArea>
-          <Avatar className={classes.avatar}>E</Avatar>
-          <CardContent>
-            <Typography variant="body2" color="textSecondary" component="p">
-              Test E
-          </Typography>
-          </CardContent>
-        </CardActionArea>
-      </Card>
-      <Card className={classes.card}>
-        <CardActionArea>
-        <Avatar className={classes.orangeAvatar}>M</Avatar>
-          <CardContent>
-            <Typography variant="body2" color="textSecondary" component="p">
-              Test M
-          </Typography>
-          </CardContent>
-        </CardActionArea>
-      </Card>
-      <Card className={classes.card}>
-        <CardActionArea>
-        <Avatar className={classes.purpleAvatar}>D</Avatar>
-          <CardContent>
-            <Typography variant="body2" color="textSecondary" component="p">
-              Test D
-          </Typography>
-          </CardContent>
-        </CardActionArea>
-      </Card>
-    </Grid>
+    <div className="Examples__widget-section">
+      <ReactTypeformEmbed  popup={false} autoOpen={true} url="https://tomasgutierrez.typeform.com/to/s1OfSl" />
+    </div>
   );
 }
 

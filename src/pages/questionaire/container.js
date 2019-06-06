@@ -20,6 +20,8 @@ import Divider from '@material-ui/core/Divider';
 import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Category from './category';
 import Questions from './question';
+import Navigation from '../../components/navigation';
+import TopNav from '../../components/appbar';
 
 const useStyles = makeStyles(theme => ({
   grow: {
@@ -37,30 +39,6 @@ const useStyles = makeStyles(theme => ({
     // [theme.breakpoints.up('xs')]: {
     //   display: 'block',
     // },
-  },
-  search: {
-    position: 'relative',
-    borderRadius: theme.shape.borderRadius,
-    backgroundColor: fade(theme.palette.common.white, 0.15),
-    '&:hover': {
-      backgroundColor: fade(theme.palette.common.white, 0.25),
-    },
-    marginRight: theme.spacing(2),
-    marginLeft: 0,
-    width: '100%',
-    [theme.breakpoints.up('sm')]: {
-      marginLeft: theme.spacing(3),
-      width: 'auto',
-    },
-  },
-  searchIcon: {
-    width: theme.spacing(7),
-    height: '100%',
-    position: 'absolute',
-    pointerEvents: 'none',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
   },
   inputRoot: {
     color: 'inherit',
@@ -150,14 +128,14 @@ function Question() {
         </IconButton>
         <p>Notifications</p>
       </MenuItem>
-      <MenuItem onClick={handleProfileMenuOpen}>
+      <MenuItem>
         <IconButton color="inherit">
           <AccountCircle />
         </IconButton>
         <p>Profile</p>
       </MenuItem>
-      <Divider/>
-      <MenuItem onClick={handleProfileMenuOpen}>
+      <Divider />
+      <MenuItem>
         <IconButton color="inherit">
           <LockOutlinedIcon />
         </IconButton>
@@ -168,67 +146,13 @@ function Question() {
 
   return (
     <div className={classes.grow}>
-      <AppBar position="static">
-        <Toolbar>
-          {/* <IconButton
-            edge="start"
-            className={classes.menuButton}
-            color="inherit"
-            aria-label="Open drawer"
-          >
-            <MenuIcon />
-          </IconButton> */}
-          <Typography className={classes.title} variant="h6" >
-            Wise Practice Question
-          </Typography>
-          {/* <div className={classes.search}>
-            <div className={classes.searchIcon}>
-              <SearchIcon />
-            </div>
-            <InputBase
-              placeholder="Search…"
-              classes={{
-                root: classes.inputRoot,
-                input: classes.inputInput,
-              }}
-            />
-          </div> */}
-          <div className={classes.grow} />
-          <div className={classes.sectionDesktop}>
-            <IconButton color="inherit">
-              <Badge badgeContent={4} color="secondary">
-                <MailIcon />
-              </Badge>
-            </IconButton>
-            <IconButton color="inherit">
-              <Badge badgeContent={17} color="secondary">
-                <NotificationsIcon />
-              </Badge>
-            </IconButton>
-            <IconButton
-              edge="end"
-              aria-owns={isMenuOpen ? 'material-appbar' : undefined}
-              aria-haspopup="true"
-              onClick={handleProfileMenuOpen}
-              color="inherit"
-            >
-              <AccountCircle />
-            </IconButton>
-          </div>
-          <div className={classes.sectionMobile}>
-            <IconButton aria-haspopup="true" onClick={handleMobileMenuOpen} color="inherit">
-              <MoreIcon />
-            </IconButton>
-          </div>
-        </Toolbar>
-      </AppBar>
-      {renderMenu}
-      {renderMobileMenu}
+      {/* <TopNav /> */}
       <Container maxWidth="sm" className="main">
         {/* <Typography component="div" style={{ backgroundColor: '#cfe8fc', height: '100vh' }} /> */}
-        <Category/>
+        <Category />
         {/* <Question/> */}
       </Container>
+      <Navigation value="questions" />
     </div>
   );
 }
