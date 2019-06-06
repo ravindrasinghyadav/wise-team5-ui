@@ -12,8 +12,6 @@ import Grid from '@material-ui/core/Grid';
 import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Typography from '@material-ui/core/Typography';
 import Avatar from '@material-ui/core/Avatar';
-import { Link as RouterLink } from 'react-router-dom';
-// import { Redirect } from 'react-router'
 
 const styles = theme => ({
   root: {
@@ -50,37 +48,13 @@ class Login extends React.Component {
     // data: {}
   };
 
-  // componentWillReceiveProps(nextProps){
-  //   let node = this.props.node || {};
-  //   if (nextProps.node && nextProps.node.id !== node.id) {
-  //     this.loadData(nextProps.node);
-  //   } else {
-  //     this.setState({ data: {}});
-  //   }
-  // }
-
-  // loadData(node) {
-  //   this.setState({ loading: true });
-  //   // Temp: do not fetch the link type for now
-  //   if (node.type === 'link') return;
-  //   axios.get(`${CONFIG.API}`, { params: {uids: node.data.uids.join(',')} })
-  //     .then(res => this.setState({ data: res}))
-  //     .catch((error) => {
-  //       this.props.enqueueSnackbar('Failed to load detail', {variant: 'error'});
-  //     })
-  //     .finally(() => this.setState({ loading: false }));
-  // }
-
   onSubmit(){
     console.log('submit');
     window.location.href = '/home';
   }
 
   render() {
-    const { classes, node } = this.props;
-    // if (this.state.redirect) {
-    //   return <Redirect to='/question'/>;
-    // }
+    const { classes } = this.props;
     return (
       <Grid container component="main" className={classes.root}>
         <Grid item xs={false} sm={4} md={7} className={classes.image} />

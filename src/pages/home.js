@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import { withSnackbar } from 'notistack'
 import Navigation from '../components/navigation';
-import TopNav from '../components/appbar';
 import Avatar from '@material-ui/core/Avatar';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
@@ -48,7 +47,7 @@ function createData(name, calories, fat, carbs, img) {
 class Home extends React.Component {
 
   render() {
-    const { classes, node } = this.props;
+    const { classes } = this.props;
     return (
       <React.Fragment>
         {/* <TopNav /> */}

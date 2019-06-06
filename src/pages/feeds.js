@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import { withSnackbar } from 'notistack'
 import Navigation from '../components/navigation';
-import TopNav from '../components/appbar';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import Divider from '@material-ui/core/Divider';
@@ -16,8 +15,6 @@ const styles = theme => ({
   root: {
 
     width: '100%',
-    // maxWidth: 360,
-    // backgroundColor: theme.palette.background.paper,
   },
   inline: {
     display: 'inline',
@@ -27,7 +24,7 @@ const styles = theme => ({
 class Feeds extends React.Component {
 
   render() {
-    const { classes, node } = this.props;
+    const { classes } = this.props;
     return (
       <React.Fragment>
         {/* <TopNav/> */}
@@ -54,7 +51,7 @@ class Feeds extends React.Component {
         />
         <br/>
       </ListItem>
-        <img src="/images/nerd.jpeg" width="300" align="bottom"/>
+        <img src="/images/nerd.jpeg" width="300" align="bottom" alt="Nerdwaller"/>
       <Divider variant="inset" component="li" />
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
@@ -121,7 +118,7 @@ class Feeds extends React.Component {
         />
         <br/>
       </ListItem>
-        <img src="/images/some.jpeg" width="300" align="bottom"/>
+        <img src="/images/some.jpeg" width="300" align="bottom" alt="Finance"/>
       <Divider variant="inset" component="li" />
       <ListItem alignItems="flex-start">
         <ListItemAvatar>

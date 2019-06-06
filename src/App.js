@@ -1,14 +1,13 @@
 import React from 'react';
-// import logo from './logo.svg';
 import './App.css';
 import { SnackbarProvider } from 'notistack';
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import { withStyles } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
-import { blue, indigo, lime } from '@material-ui/core/colors'
+import { blue, lime } from '@material-ui/core/colors'
 import Login from './pages/login/login'
 import Signup from './pages/login/signup'
-import Question from './pages/questionaire/container'
+import Question from './pages/questions'
 import Home from './pages/home'
 import Dashboard from './pages/dashboard'
 import Feeds from './pages/feeds'
@@ -16,9 +15,7 @@ import Profile from './pages/profile'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
 import useScrollTrigger from '@material-ui/core/useScrollTrigger';
-import Container from '@material-ui/core/Container';
 import Slide from '@material-ui/core/Slide';
 import PropTypes from 'prop-types';
 
