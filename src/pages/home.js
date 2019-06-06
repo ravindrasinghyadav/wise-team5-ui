@@ -13,6 +13,9 @@ import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
 import Button from '@material-ui/core/Button';
+import LinearProgress from '@material-ui/core/LinearProgress';
+import Box from '@material-ui/core/Box';
+const normalise = value => (value - 0) * 100 / (100 - 0);
 
 const styles = theme => ({
   smAvatar: {
@@ -54,15 +57,17 @@ class Home extends React.Component {
         <Grid container justify="center" alignItems="center">
           <Avatar alt="Remy Sharp" src="/images/1.jpg" className={classes.bigAvatar} />
           <Typography variant="h4" gutterBottom>
-            Welcome John Doe
+            Welcome, John Doe!
       </Typography>
-          <p>
+      <Grid item xs={12}>
+
+      <Box component="div" m={4}>
             <Typography variant="h6" align="left" gutterBottom color="textSecondary">
               MONEY BUZZ LEADERBOARD
       </Typography>
-          </p>
-          <br />
-          <br />
+            </Box>
+      </Grid>
+        
           <Paper className={classes.root}>
             <Table className={classes.table}>
               <TableHead>
@@ -91,15 +96,30 @@ class Home extends React.Component {
       </Button>
           </Paper>
           <p>
-            <Typography variant="h6" align="left" color="textSecondary">
-              My CPL Practice Tests
-      </Typography>
-
           </p>
+          <Grid item xs={12}>
+          <Box component="div" m={4}>
+              <Typography variant="h6" align="left" color="textSecondary">
+                My CPL Practice Tests
+            </Typography>
+            </Box>
+          </Grid>
+          <Grid item xs={4}>
+          <Box component="div" m={4}>
+            <LinearProgress variant="determinate" value={42} color="red" />
+            </Box>
+            
+        </Grid>
+          <Grid item xs={6}>
+            <div>
+              
+            </div>
+          </Grid>
           <br />
           <br />
           <br />
         </Grid>
+        
         <Navigation value="home" />
       </React.Fragment>
     );
